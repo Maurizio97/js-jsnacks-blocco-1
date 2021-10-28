@@ -2,7 +2,6 @@
 Il software stampa prima la parola più corta, poi la parola più lunga. */
 
 // creo una variabile per il div dove stamperò le parole
-
 const stamp = document.querySelector(".stamp");
 // creo il primo promt dove inserirò la prima parola (x)
 const wordX = prompt("inserisci una parola");
