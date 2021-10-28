@@ -22,5 +22,5 @@ let somma = 0;
     somma = somma + numArray[i];
     }
     //stampo la somma
-    stamp.innerHTML = `La somma è: ${somma}`
+    stamp.innerHTML = `La somma è: ${somma}`;
     
