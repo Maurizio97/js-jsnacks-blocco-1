@@ -13,12 +13,12 @@ const numY = parseInt(prompt("inserisci un altro  numero"));
     // se sono uguale gli dico che sono pari
     if( numX === numY) {
         stamp.innerHTML = `non c'è un numero maggiore`;
-    } else if (numX > numY ) {
-    // se è maggiore il numero "x" stampo "x"
+
+    } else if (numX > numY ) { 
+         // se è maggiore il numero "x" stampo "x" 
         stamp.innerHTML = `il maggione è: ${numX}`;
-    } else {
+
+    } else { 
+        // altrimenti stampo "y"
         stamp.innerHTML = `il maggione è: ${numY}`;
-
     }
-
-    // altrimenti stampo "y"
