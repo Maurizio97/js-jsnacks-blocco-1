@@ -21,7 +21,7 @@ while (randNum.length < 50) {
             diffNumber = true
         }
     }
-        
+    //se il numero generato non è uguale a nesun numero della lista lo salvo nell'array    
     if (!diffNumber){
         randNum.push(numGen);
     }
